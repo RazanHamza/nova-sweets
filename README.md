@@ -32,7 +32,7 @@ It includes multiple pages such as Home, Menu, Login, Sign Up, and Contact secti
 
 ## Live Demo
 👉 GitHub Pages:  
-https://your-username.github.io/nova-sweets/
+https://razanhamza.github.io/nova-sweets
 
 ---
 
