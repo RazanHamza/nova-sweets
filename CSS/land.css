@@ -1,0 +1,158 @@
+
+/* global */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Home section */
+
+#home{
+    background-image: url('../nova images/home.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size:cover;
+}
+.content{
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    padding: 0px 80px;
+    background-color: #FFF2F2;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.navbar-right ul{
+    padding: 10px 0px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    text-align: center;
+    gap: 10px;
+}
+.navbar-name{
+    width: 8%;
+    margin: 5px 0px;
+    margin-left: 30px;
+}
+.navbar-name img{
+    width: 100%;
+    border-radius: 50%;
+}
+.navlink{
+    list-style: none;
+    text-align: center;
+    padding: 8px;
+}
+
+.navbar-right li a{
+    font-family: "LazyDog";
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 330;
+    transition: 1s;
+    color: #87404E;
+}
+.navbar-right li a i{
+    font-size: 25px;
+    margin-left: 25px;
+}
+.navbar-right li button{
+    border: 2px solid #87404E;
+    border-radius: 35px; 
+    background-color: #FFF2F2;
+    margin-left: 25px;
+    /* padding: 5px; */
+}
+.navbar-right li button a{
+    padding: 10px;
+    font-family: "LazyDog";
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 330;
+    color: #87404E;
+    transition: 0.2s;
+}
+.navbar-right li button:hover{
+    background-color: #c37e8c86;
+}
+.navbar-right li button a:hover{
+    text-decoration: none;
+    color: #87404E;
+    /* background-color: #c37e8c; */
+}
+.navbar-right li a:hover{
+    color: #c7a1ad;
+    text-decoration: underline;
+}
+.home-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding: 100px 0px 0px 50px;
+    /* align-items: center; */
+}
+.home-text h1{
+    font-family: "LazyDog";
+    font-size: 90px;
+    font-weight: 700;
+    color: #87404E;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0,0.3);
+}
+.home-text h1 span{
+    font-family: "LazyDog";
+    font-size: 90px;
+    font-weight: 700;
+    color: #CF4D67;
+}
+.home-text p{
+    font-family: "LazyDog";
+    font-size: 20px;
+    font-weight: 400;
+    color: #c37e8c;
+    margin-left: 40px;
+}
+.home-text button{
+    width: 200px;
+    height: 60px;
+    border: 0.5px solid transparent;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 50px 0px 0px 100px ;
+    background-color: #f8bac6;
+    color: #87404E;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0,0.3);
+    cursor: pointer;
+}
+.home-text button a{
+    color: #87404E;
+}
