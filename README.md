@@ -1,48 +1,71 @@
-# NOVA Sweets 🍰
+# 🍰 NOVA Sweets
 
-A static sweets shop website project showcasing delicious desserts and confectionery.
-
----
-
-##  Project Description
-**NOVA Sweets** is a simple and elegant static website designed for a sweets shop.  
-It includes multiple pages such as Home, Menu, Login, Sign Up, and Contact sections.
+A modern, responsive sweets shop website built with HTML, CSS, and JavaScript.  
+Designed to simulate a real online bakery experience with clean UI and smooth navigation.
 
 ---
 
-##  Pages Included
-- 🏠 Home Page  
-- ℹ️ About Section  
-- 🍬 Menu Page (Product Categories)  
-- 🔐 Login Page  
-- 📝 Sign Up Page  
-- 🎂 Special Orders Section  
-- 📞 Contact & Footer Section  
+## 🚀 Live Demo
+👉 https://razanhamza.github.io/nova-sweets/
 
 ---
 
-##  Technologies Used
+
+## 📁 Project Structure
+
+nova-sweets/
+│
+├── index.html
+├── about.html
+├── menu.html
+├── login.html
+├── signup.html
+├── contact.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── main.js
+│
+└── images/
+
+---
+
+## ✨ Features
+
+- 🎨 Modern and attractive UI design  
+- 📱  static multi-page website  
+- 🧭 Smooth navigation between pages  
+- 🍰 Organized menu for desserts  
+- 🔐 Login & Sign Up UI pages  
+- ⚡ Lightweight and fast loading  
+- 💡 Beginner-friendly structure  
+
+---
+
+## 🛠️ Built With
+
 - HTML5  
-- CSS3  
-- JavaScript (basic interactions)  
-- Font Awesome Icons  
+- CSS3   
+- Font Awesome (icons)  
 - Google Fonts  
 
 ---
 
-## Live Demo
-👉 GitHub Pages:  
-https://razanhamza.github.io/nova-sweets
+## 🎯 Project Purpose
+
+This project was created for:
+- Practicing front-end development  
+- Building real-world website structure  
+- Improving UI/UX design skills  
+- Simulating a small business website  
 
 ---
 
-##  Features
-- Clean and modern UI design  
-- Multi-page website structure  
-- Simple user-friendly interface  
-- Product categories for sweets shop  
 
----
+## 👩‍💻 Developer
 
-##  Developer
-Developed with ❤️ for sweets lovers
+Developed with ❤️ by **Jesters**  
+A practice project for learning and improving web development skills.
+
