@@ -1,6 +1,6 @@
 # 🍰 NOVA Sweets
 
-A modern, responsive sweets shop website built with HTML, CSS, and JavaScript.  
+A modern, responsive sweets shop website.
 Designed to simulate a real online bakery experience with clean UI and smooth navigation.
 
 ---
@@ -23,10 +23,12 @@ nova-sweets/
 ├── contact.html
 │
 ├── css/
-│   └── style.css
-│
-├── js/
-│   └── main.js
+│   ├── index.css
+│   ├── about.css
+│   ├── menu.css
+│   ├── login.css
+│   ├── signup.css
+│   └── contact.css
 │
 └── images/
 
@@ -35,7 +37,7 @@ nova-sweets/
 ## ✨ Features
 
 - 🎨 Modern and attractive UI design  
-- 📱  static multi-page website  
+- 📱 static multi-page website  
 - 🧭 Smooth navigation between pages  
 - 🍰 Organized menu for desserts  
 - 🔐 Login & Sign Up UI pages  
@@ -66,6 +68,5 @@ This project was created for:
 
 ## 👩‍💻 Developer
 
-Developed with ❤️ by **Jesters**  
-A practice project for learning and improving web development skills.
+Developed  ❤️ by **Razan Hamza**  
 
